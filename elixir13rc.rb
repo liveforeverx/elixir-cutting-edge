@@ -26,7 +26,7 @@ class Elixir13rc < Formula
   url "https://github.com/elixir-lang/elixir/archive/v1.3.0-rc.1.zip"
   sha256 "54a9c5278b7c579123cca4bc6542a7403571514c7cdedad52d61d75fa02fbcc5"
 
-  head "https://github.com/elixir-lang/elixir.git", :branch => "v1.3"
+  head "https://github.com/elixir-lang/elixir.git", :revision => "b2329d11a887711f19d1b35a772442770d0b666a"
 
   depends_on Erlang18Requirement
 
